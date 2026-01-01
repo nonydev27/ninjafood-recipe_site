@@ -1,7 +1,11 @@
 @import "tailwindcss";
 
 .card {
-  @apply relative bg-white rounded overflow-hidden shadow;
+  @apply relative bg-white rounded overflow-hidden shadow-md;
+}
+
+.card:hover {
+  @apply shadow-lg;
 }
 
 .badge {
